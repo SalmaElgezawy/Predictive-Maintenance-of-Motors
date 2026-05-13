@@ -35,3 +35,4 @@ The framework demonstrated exceptional robustness on the MaFaulda dataset:
 ├── Hybrid Model.ipynb          # Signal Preprocessing, PINN & CNN architecture definitions, Training, and Evaluation notebooks
 ├── requirements.txt            # Project dependencies
 └── README.md
+'''
