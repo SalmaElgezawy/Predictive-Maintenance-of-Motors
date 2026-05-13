@@ -10,7 +10,7 @@ This project implements a sophisticated Hybrid Physics-Informed Neural Network (
 
 ## Dataset:
 The model is trained and validated on the MaFaulda (Machinery Fault Database), which includes diverse failure modes such as imbalance, misalignment, and bearing faults. 
-## Dataset Link: https://www.kaggle.com/datasets/vuxuancu/mafaulda-full
+### Dataset Link: https://www.kaggle.com/datasets/vuxuancu/mafaulda-full
 
 ## Technical Architecture
 * Preprocessing: Zero-centering, normalization, and FFT-based feature extraction.  
@@ -30,6 +30,8 @@ The framework demonstrated exceptional robustness on the MaFaulda dataset:
 * Classes Detected: Normal, Imbalance, Horizontal Misalignment, Vertical Misalignment, Bearing Faults (Inner/Outer Race).
 
 ## Repository Structure
-├── Code Notebook          # Signal Preprocessing, PINN & CNN architecture definitions, Training, and Evaluation notebooks
-├── requirements.txt    # Project dependencies
+'''
+.
+├── Hybrid Model.ipynb          # Signal Preprocessing, PINN & CNN architecture definitions, Training, and Evaluation notebooks
+├── requirements.txt            # Project dependencies
 └── README.md
