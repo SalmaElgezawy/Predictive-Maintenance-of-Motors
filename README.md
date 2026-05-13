@@ -30,9 +30,9 @@ The framework demonstrated exceptional robustness on the MaFaulda dataset:
 * Classes Detected: Normal, Imbalance, Horizontal Misalignment, Vertical Misalignment, Bearing Faults (Inner/Outer Race).
 
 ## Repository Structure
-'''
+
+```text
 .
-├── Hybrid Model.ipynb          # Signal Preprocessing, PINN & CNN architecture definitions, Training, and Evaluation notebooks
-├── requirements.txt            # Project dependencies
-└── README.md
-'''
+├── hybrid-model.ipynb    # Signal Preprocessing, PINN & CNN architecture definitions, Training, and Evaluation
+├── requirements.txt      # Project dependencies
+└── README.md             # Project documentation
